@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    display: flex;
+    background-color: gold;
+    align-self: flex-end;
+    margin: 10px;
+}
+
+.one, .two, .three {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.banner {
+    width: 50px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 10px;
+}
