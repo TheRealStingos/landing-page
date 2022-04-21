@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.top, .bottom, .link, .logo, .hero, header, .info-section, .info-header, .info-pictures, .pic-one, .pic-two, .pic-three, .pic-four, .quote-wrapper, .quote-container, .quote-author {
+.top, .bottom, .link, .logo, .hero, header, .info-section, .info-header, .info-pictures, .pic-one, .pic-two, .pic-three, .pic-four, .quote-wrapper, .quote-container, .quote-author, .call-to-action, .call-container, .button-container, .call-wrapper {
     display: flex;
 }
 
@@ -137,4 +137,35 @@ h3 {
     color: black;
     font-size: 25px;
     font-weight: bolder;
+}
+
+.call-to-action {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-wrapper {
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+}
+
+.call-container {
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+h4 {
+    color: white;
+    margin: -10px;
+    font-size: 25px;
+}
+
+.call-button {
+    border: solid white;
 }
