@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.top, .bottom, .link, .logo, .hero, header, .info-section, .info-header, .info-pictures, .pic-one, .pic-two, .pic-three, .pic-four{
+.top, .bottom, .link, .logo, .hero, header, .info-section, .info-header, .info-pictures, .pic-one, .pic-two, .pic-three, .pic-four, .quote-wrapper, .quote-container, .quote-author {
     display: flex;
 }
 
@@ -108,4 +108,33 @@ h3 {
 
 .info-text {
     color: #1F2937;
+}
+
+.quote-wrapper {
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: black;
+    width: 763px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    justify-content: right;
+}
+
+.name {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
 }
