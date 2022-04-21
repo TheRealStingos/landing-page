@@ -1,38 +1,41 @@
-header {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top, .bottom, .link, .logo, .hero, header, .info-section, .info-header, .info-pictures, .pic-one, .pic-two, .pic-three, .pic-four{
     display: flex;
-    border: solid red;
+}
+
+header {
     flex-direction: column;
     background-color: #1F2937;
     justify-content: space-between;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .top, .bottom {
-    border: solid green;
-    display: flex;
-    justify-content: space-around;
-}
-
-.bottom {
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .link {
-    display: flex;
-    border: solid yellow;
     align-self: flex-end;
     margin: 10px;
+    padding-left: 200px;
+}
+
+.logo {
+    padding-right: 490px;
 }
 
 .hero{
-    display: flex;
     flex-flow: column wrap;
-    border: solid purple;
     justify-content: center;
     align-items: flex-start;
-    width: 450px;
+    width: 600px;
     height: auto;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 .one, .two, .three {
@@ -41,13 +44,22 @@ header {
 
 }
 
+.one, .two, .three, p, button{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .banner {
-    border: solid orange;
-    width: 400px;
+    width: 450px;
+    height: auto;
     padding-left: 200px;
 }
 
-h4 {
+h2, h1 {
+    color: #f9faf8;
+}
+
+h1 {
     font-size: 24px;
     margin: 10px;
 }
@@ -58,11 +70,42 @@ h2 {
     margin: 0px;
 }
 
-h2, h4 {
-    color: #f9faf8;
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 150px;
 }
 
-.one, .two, .three, p{
-    font-size: 18px;
-    color: #e5e7eb;
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-pictures{
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.pic-one, .pic-two, .pic-three, .pic-four {
+    flex-direction: column;
+    width: 150px;
+    height: 500px;
+}
+
+.info-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pic-border {
+    border: solid #3882f6;
+    border-radius: 5px;
+}
+
+.info-text {
+    color: #1F2937;
 }
