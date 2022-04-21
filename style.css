@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.top, .bottom, .link, .logo, .hero, header, .info-section, .info-header, .info-pictures, .pic-one, .pic-two, .pic-three, .pic-four, .quote-wrapper, .quote-container, .quote-author, .call-to-action, .call-container, .button-container, .call-wrapper {
+.top, .bottom, .link, .logo, .hero, header, .info-section, .info-header, .info-pictures, .pic-one, .pic-two, .pic-three, .pic-four, .quote-wrapper, .quote-container, .quote-author, .call-to-action, .call-container, .button-container, .call-wrapper, footer{
     display: flex;
 }
 
@@ -168,4 +168,9 @@ h4 {
 
 .call-button {
     border: solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    justify-content: center;
 }
